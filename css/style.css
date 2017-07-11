@@ -13,6 +13,10 @@
   padding-bottom: 20px;
 }
 
+#center-table{
+   width: 100%;
+}
+
 #time h5{
   font-size: 150%;
 }
@@ -24,18 +28,10 @@
   color: gray;
 }
 
-#to {
-  font-size: 300%;
-  font-weight: bolder;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-}
-
 .page-label {
+  font-size: 200%;
   height: 100px;
   line-height: 100px;
-  text-align: center;
 }
 
 #win-message {
@@ -48,8 +44,21 @@
   margin-bottom: 30px;
 }
 
+#center-cell{
+    width: 200px;
+}
+
+#startTitle{
+  text-align: right;
+}
+
+#endTitle{
+  text-align: left;
+}
+
 body{
   width: 100%;
+  font-family: "Garamond";
 }
 
 button{
@@ -70,4 +79,29 @@ button{
 
 .wiki-font{
   font-family: hoefler_textregular, arial, serif;
+}
+
+.arrow{
+    width: 200px;
+    height: 50px;
+}
+
+.logo{
+    width: 700px;
+    height: 100px;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.action-button{
+    width: 50%;
+}
+
+.bottom-text{
+    text-align: left;
+    color: gray;
+    padding: 12px 0 0 20px;
 }
